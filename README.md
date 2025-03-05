@@ -20,9 +20,10 @@ Masked Autoregressive Flow (MAF)
 Log-Likelihood: Measures how well the model fits the observed data (higher is better).
 Mean Squared Error (MSE): Measures the deviation of generated samples from real returns (lower is better).
 ## Results
-Model      Train Log-Likelihood      Test Log-Likelihood      MSE
-RealNVP      2.9633                      2.7660               2.2791
-MAF	        -0.7070	                    -0.9520	              3.3726
+| Model | Train Log-Likelihood | Test Log-Likelihood | MSE |
+|----------|----------|----------|------------|
+| RealNVP  |    2.9633 |  2.7660  |  2.2791 |
+| MAF	     |   -0.7070	| -0.9520	 |  3.3726 |
 
 RealNVP outperformed MAF with a higher log-likelihood and lower MSE, indicating that it better captured the return distribution.
 Implementation
